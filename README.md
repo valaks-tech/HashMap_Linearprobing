@@ -14,3 +14,5 @@ Search(k): Keep probing until slot’s key doesn’t become equal to k or an emp
 
 Delete(k): If we simply delete a key, then the search may fail. So slots of deleted keys are marked specially as “deleted”. 
 The insert can insert an item in a deleted slot, but the search doesn’t stop at a deleted slot. 
+
+Good resource : https://www.cs.tau.ac.il/~zwick/Adv-Alg-2015/Linear-Probing.pdf
