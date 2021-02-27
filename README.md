@@ -4,6 +4,7 @@ Implement HashMap Linear Probing in Python3
 
 # Whats Linear probing ?
 In linear probing technique, collision is resolved by searching linearly in the hash table until an empty location is found. Its also called "Open Addressing Technique".
+The search for open slot starts from the slot where the collision happened. It moves sequentially through the slots until an empty slot is encountered. The movement is in a circular fashion. It can move to the first slot while searching for an empty slot. Hence, covering the entire hash table. 
 
 All the elements are stored in HashMap itself and at any point of time, size of the table must be greater than the total number of keys.
 
